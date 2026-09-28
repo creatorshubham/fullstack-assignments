@@ -3,6 +3,7 @@ package com.example.ems.service;
 import com.example.ems.exception.DuplicateEmployeeException;
 import com.example.ems.exception.EmployeeNotFoundException;
 import com.example.ems.exception.InvalidEmployeeException;
+import com.example.ems.model.Employee;
 import com.example.ems.repository.InMemoryEmployeeRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
